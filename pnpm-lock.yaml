@@ -9,7 +9,7 @@ devDependencies:
     version: github.com/battis/prettier-config/a475934b67f82eac8e5e0b7c53fc1ab58c33e946(@prettier/plugin-xml@2.2.0)(prettier-plugin-sql@0.13.0)(prettier@2.8.8)
   '@battis/webpack':
     specifier: github:battis/webpack
-    version: github.com/battis/webpack/e866bff92f8d9ad2278716f0aab9559f8eaf2184(@battis/eslint-config@1.0.0)(@battis/prettier-config@1.1.0)(clean-webpack-plugin@4.0.0)(copy-webpack-plugin@11.0.0)(css-loader@6.7.4)(css-minimizer-webpack-plugin@4.2.2)(dotenv-webpack@8.0.1)(favicons-webpack-plugin@6.0.0)(favicons@7.1.2)(file-loader@6.2.0)(html-webpack-plugin@5.5.1)(image-minimizer-webpack-plugin@3.8.2)(imagemin-gifsicle@7.0.0)(imagemin-jpegtran@7.0.0)(imagemin-optipng@8.0.0)(imagemin-svgo@10.0.1)(imagemin@8.0.1)(mini-css-extract-plugin@2.7.6)(postcss-loader@7.3.0)(postcss-preset-env@8.4.1)(postcss@8.4.23)(raw-loader@4.0.2)(sass-loader@13.2.2)(sass@1.62.1)(style-loader@3.3.3)(terser-webpack-plugin@5.3.9)(ts-loader@9.4.2)(webpack-cli@5.1.1)(webpack-dev-server@4.15.0)(webpack@5.83.1)
+    version: github.com/battis/webpack/276643a828e52d71c33c57089e9b1e8a0588873f(@battis/eslint-config@1.0.0)(@battis/prettier-config@1.1.0)(clean-webpack-plugin@4.0.0)(copy-webpack-plugin@11.0.0)(css-loader@6.7.4)(css-minimizer-webpack-plugin@4.2.2)(dotenv-webpack@8.0.1)(favicons-webpack-plugin@6.0.0)(favicons@7.1.2)(file-loader@6.2.0)(html-webpack-plugin@5.5.1)(image-minimizer-webpack-plugin@3.8.2)(imagemin-gifsicle@7.0.0)(imagemin-jpegtran@7.0.0)(imagemin-optipng@8.0.0)(imagemin-svgo@10.0.1)(imagemin@8.0.1)(mini-css-extract-plugin@2.7.6)(postcss-loader@7.3.0)(postcss-preset-env@8.4.1)(postcss@8.4.23)(raw-loader@4.0.2)(sass-loader@13.2.2)(sass@1.62.1)(style-loader@3.3.3)(terser-webpack-plugin@5.3.9)(ts-loader@9.4.2)(webpack-cli@5.1.1)(webpack-dev-server@4.15.0)(webpack@5.83.1)
 
 packages:
 
@@ -6770,9 +6770,9 @@ packages:
       prettier-plugin-sql: 0.13.0(prettier@2.8.8)
     dev: true
 
-  github.com/battis/webpack/e866bff92f8d9ad2278716f0aab9559f8eaf2184(@battis/eslint-config@1.0.0)(@battis/prettier-config@1.1.0)(clean-webpack-plugin@4.0.0)(copy-webpack-plugin@11.0.0)(css-loader@6.7.4)(css-minimizer-webpack-plugin@4.2.2)(dotenv-webpack@8.0.1)(favicons-webpack-plugin@6.0.0)(favicons@7.1.2)(file-loader@6.2.0)(html-webpack-plugin@5.5.1)(image-minimizer-webpack-plugin@3.8.2)(imagemin-gifsicle@7.0.0)(imagemin-jpegtran@7.0.0)(imagemin-optipng@8.0.0)(imagemin-svgo@10.0.1)(imagemin@8.0.1)(mini-css-extract-plugin@2.7.6)(postcss-loader@7.3.0)(postcss-preset-env@8.4.1)(postcss@8.4.23)(raw-loader@4.0.2)(sass-loader@13.2.2)(sass@1.62.1)(style-loader@3.3.3)(terser-webpack-plugin@5.3.9)(ts-loader@9.4.2)(webpack-cli@5.1.1)(webpack-dev-server@4.15.0)(webpack@5.83.1):
-    resolution: {tarball: https://codeload.github.com/battis/webpack/tar.gz/e866bff92f8d9ad2278716f0aab9559f8eaf2184}
-    id: github.com/battis/webpack/e866bff92f8d9ad2278716f0aab9559f8eaf2184
+  github.com/battis/webpack/276643a828e52d71c33c57089e9b1e8a0588873f(@battis/eslint-config@1.0.0)(@battis/prettier-config@1.1.0)(clean-webpack-plugin@4.0.0)(copy-webpack-plugin@11.0.0)(css-loader@6.7.4)(css-minimizer-webpack-plugin@4.2.2)(dotenv-webpack@8.0.1)(favicons-webpack-plugin@6.0.0)(favicons@7.1.2)(file-loader@6.2.0)(html-webpack-plugin@5.5.1)(image-minimizer-webpack-plugin@3.8.2)(imagemin-gifsicle@7.0.0)(imagemin-jpegtran@7.0.0)(imagemin-optipng@8.0.0)(imagemin-svgo@10.0.1)(imagemin@8.0.1)(mini-css-extract-plugin@2.7.6)(postcss-loader@7.3.0)(postcss-preset-env@8.4.1)(postcss@8.4.23)(raw-loader@4.0.2)(sass-loader@13.2.2)(sass@1.62.1)(style-loader@3.3.3)(terser-webpack-plugin@5.3.9)(ts-loader@9.4.2)(webpack-cli@5.1.1)(webpack-dev-server@4.15.0)(webpack@5.83.1):
+    resolution: {tarball: https://codeload.github.com/battis/webpack/tar.gz/276643a828e52d71c33c57089e9b1e8a0588873f}
+    id: github.com/battis/webpack/276643a828e52d71c33c57089e9b1e8a0588873f
     name: '@battis/webpack'
     version: 0.1.0
     peerDependencies:
