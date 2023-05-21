@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const t=document.location.href;t.match(/.*#topicdetail\/.*\/0\/0/)?document.location.href=t.replace(/(.*)#topicdetail(\/.*)\/0/,"$1#topicdetailedit$2"):t.match(/(.*)#topicdetailedit(\/.*)/)?document.location.href=t.replace(/(.*)#topicdetailedit(\/.*)/,"$1#topicdetail$2/0"):alert("Not on a MyGroton topic page!")})()})();
