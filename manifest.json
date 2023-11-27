@@ -14,8 +14,14 @@
     "default_icon": "assets/images/logo-128px.png"
   },
   "background": {
-    "service_worker": "scripts/service_worker.js",
-    "matches": "https://*.myschoolapp.com/"
+    "service_worker": "scripts/service_worker.js"
   },
-  "permissions": ["activeTab"]
+  "content_scripts": [
+    {
+      "matches": ["https://*.myschoolapp.com/*"],
+      "js": ["scripts/content.js"],
+      "css": ["assets/css/styles.css"]
+    }
+  ],
+  "permissions": ["tabs"]
 }

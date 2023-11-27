@@ -1,9 +1,13 @@
-chrome.action.onClicked.addListener((tab) => {
-  let url;
-  if (/.*#topicdetail\/.*\/0\/0/.test(tab.url)) {
-    url = tab.url.replace(/(.*)#topicdetail(\/.*)\/0/, '$1#topicdetailedit$2');
-  } else if (/.*#topicdetailedit\/.*/.test(tab.url)) {
-    url = tab.url.replace(/(.*)#topicdetailedit(\/.*)/, '$1#topicdetail$2/0');
-  }
-  chrome.tabs.update({ url });
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    if (changeInfo.status === 'complete') {
+      const url = new URL(tab.url);
+      if (
+        url.host.endsWith('.myschoolapp.com') &&
+        url.hash.startsWith('#topicdetail')
+      ) {
+        chrome.tabs.sendMessage(tabId, { message: 'tabUpdated' });
+      }
+    }
+  });
 });
