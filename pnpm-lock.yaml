@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       chrome-types:
-        specifier: ^0.1.246
-        version: 0.1.246
+        specifier: ^0.1.325
+        version: 0.1.325
     devDependencies:
       '@battis/eslint-config':
         specifier: latest
@@ -504,8 +504,8 @@ packages:
   chevrotain@7.1.1:
     resolution: {integrity: sha512-wy3mC1x4ye+O+QkEinVJkPf5u2vsrDIYW9G7ZuwFl6v/Yu0LwUuT2POsb+NUWApebyxfkQq6+yDfRExbnI5rcw==}
 
-  chrome-types@0.1.246:
-    resolution: {integrity: sha512-nX4M3ISvRnx/Dt3fdfTjLQaCiWwKoVUc+eaEjmURTR+47YJ5E82MQozFOsqV/U4QG+4+hNHdAwj53NtBGOitUw==}
+  chrome-types@0.1.325:
+    resolution: {integrity: sha512-ZBYwAoUa/piEK3RSFuN21PP0gXmtlkTfaq1UdowkRQTmoNT4w31MbmwckVYnyrUV36YCGAtpLFqVphIQtBqYFQ==}
 
   cli-cursor@4.0.0:
     resolution: {integrity: sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==}
@@ -2431,7 +2431,7 @@ snapshots:
     dependencies:
       regexp-to-ast: 0.5.0
 
-  chrome-types@0.1.246: {}
+  chrome-types@0.1.325: {}
 
   cli-cursor@4.0.0:
     dependencies:
