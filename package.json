@@ -32,6 +32,6 @@
     }
   },
   "dependencies": {
-    "chrome-types": "^0.1.335"
+    "chrome-types": "^0.1.345"
   }
 }
